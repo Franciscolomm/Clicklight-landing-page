@@ -1,0 +1,12 @@
+/* Installation types */
+
+/* ---------- model selector / segmented control ---------- */
+.pg-seg { display:inline-flex; background:var(--panel); border-radius:999px; padding:4px; gap:4px; margin-bottom:40px; flex-wrap:wrap; }
+.pg-seg button { border:0; background:none; color:#d2d2d7; font:inherit; font-size:15px; padding:8px 18px; border-radius:999px; cursor:pointer; }
+.pg-seg button.on { background:#f5f5f7; color:#1d1d1f; }
+.pg-select { display:inline-flex; align-items:center; gap:12px; margin-bottom:40px; font-size:17px; color:#d2d2d7; }
+.pg-select select { background:var(--panel); color:var(--txt); border:1px solid #3a3a3d; border-radius:12px; padding:10px 14px; font:inherit; }
+[data-pane]:not(.on) { display:none; }
+
+/* ---------- installation types ---------- */
+.pg-inst-txt { margin-top:28px; max-width:640px; }
